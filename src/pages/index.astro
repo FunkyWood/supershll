@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Levels from '../components/Levels.vue';
+import { AstroSeo } from '@astrolib/seo';
+---
+
+<html lang="en">
+<AstroSeo title="Super Sh*tpost Levels List" description="A list for terrible, abysmal, pieces of crap that also happen to be Geometry Dash levels."/>
+<Layout>
+	<h1 class="text-center text-4xl md:text-4xl lg:text-6xl text-gray-800 dark:text-white font-bold my-4">The Super Shitpost Levels List (SSLL)</h1>
+	<Levels client:load />
+  </Layout>
+  </html>

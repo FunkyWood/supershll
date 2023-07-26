@@ -1,0 +1,16 @@
+---
+// Import the required CSS
+import Footer from "../components/Footer.astro";
+---
+
+  <head>
+    <title>GD Levels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.svg"/>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <main class="flex-grow">
+      <slot />
+    </main>
+    <Footer />
+  </body>
