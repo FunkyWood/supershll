@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [vue(), tailwind()],
-  site: 'https://funkywood.github.io/supershll',
+  site: 'https://funkywood.github.io',
   base: '/supershll'
 
 });
